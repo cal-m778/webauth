@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS-font</title>
+<style>
+body{
+    font-size: 100%;
+}
+</style>
+</head>
+<body>
+<p>
+    <span style="font-family: papyrus, fantasy; font-size: 150%;"> Cast all your anxiety on him because he cares for you.</span>
+    <br>
+    <span style="font-family: Arial, sans-serif; font-size: 75%; font-weight: bold;">1 Peter 5:7</span> 
+</p>
+<p>
+    <span style="font: 30px Helvetica;"> Cast all your anxiety on him because he cares for you.</span>
+    <br>
+    <span style="font: 125% Times bold;">1 Peter 5:7</span> 
+</p>
+</body>
+</html>
+

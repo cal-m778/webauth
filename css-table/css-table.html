@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS table</title>
+<style>
+table, th, td {
+  border: 2px firebrick;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+}
+th, td{
+  height: 90px;
+}
+th {
+  text-align: center;
+  
+}
+td {
+  text-align: right;
+  padding: 25px;
+}
+caption{
+    background-color: antiquewhite;
+}
+thead{
+    background-color: blueviolet;
+}
+tbody{
+    background-color: blue;
+}
+tfoot{
+    background-color: gold;
+}
+</style>
+</head>
+<body>
+    <table>
+        <caption>hello</caption>
+        <thead>
+        <tr>
+          <th>Person 1</th>
+          <th>Person 2</th>
+          <th>Person 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Emil</td>
+          <td>Tobias</td>
+          <td>Linus</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>14</td>
+          <td>10</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>16</td>
+            <td>14</td>
+            <td>10</td>
+          </tr>
+    </tfoot>
+      </table>
+</body>
+</html>
+

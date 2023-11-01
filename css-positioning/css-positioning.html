@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #fixedImage {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+
+  #relativeImage {
+    position: relative;
+    top: 50px;
+    left: 50px;
+  }
+
+  #absoluteImage {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+
+  #overlapImage1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+
+  #overlapImage2 {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    z-index: 2;
+  }
+
+  #overlapImage3 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+  }
+
+  body:hover {
+    cursor: crosshair;
+  }
+
+  img:hover {
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <img id="fixedImage" src="271319.746c2259.668x735o.c6cf8543e2d5@2x.jpg" alt="Fixed Image">
+  <img id="relativeImage" src="download.jpeg" alt="Relative Image">
+  <img id="absoluteImage" src="Play-Chess-Step-28-Version-5.jpg" alt="Absolute Image">
+  <img id="overlapImage1" src="download (1).jpeg" alt="Overlap Image 1">
+  <img id="overlapImage2" src="download (1).jpeg" alt="Overlap Image 2">
+  <img id="overlapImage3" src="download (1).jpeg" alt="Overlap Image 3">
+</body>
+</html>

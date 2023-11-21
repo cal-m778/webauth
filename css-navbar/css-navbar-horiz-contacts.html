@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CSS Navigation Bar Horizontal Contacts</title>
+  <title>CSS Navigation Bar Horiz Contacts</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -10,29 +10,26 @@
 
     ul.navbar {
       list-style-type: none;
-      margin: 0;
-      padding: 0;
-      width: 200px;
-      background-color: #22f12c; 
-      position: fixed;
-      height: 100%;
-      overflow: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
     }
 
     ul.navbar li {
-      text-align: center;
-      padding: 8px;
+      float: left;
     }
 
     ul.navbar a {
-      text-decoration: none;
-      font-size: 16px;
-      color: white;
       display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
     }
 
     ul.navbar a:hover {
-      background-color: #555555; 
+      background-color: #555; 
     }
 
     ul.navbar a.active {
@@ -41,7 +38,7 @@
     }
 
     div.content {
-      margin-left: 200px;
+      margin-left: 00px;
       padding: 1px 16px;
       height: 1000px; 
     }
@@ -50,14 +47,14 @@
 <body>
 
   <ul class="navbar">
-    <li><a href="css-navbar-horiz-home.html" >Home</a></li>
-    <li><a href="css-navbar-horiz-news.html">News</a></li>
-    <li><a href="css-navbar-horiz-contacts.html" class="active">Contacts</a></li>
-    <li><a href="css-navbar-horiz-about.html" >About</a></li>
+    <li><a href="css-navbar-vert-home.html" >Home</a></li>
+    <li><a href="css-navbar-vert-news.html">News</a></li>
+    <li><a href="css-navbar-vert-contacts.html" class="active">Contacts</a></li>
+    <li><a href="css-navbar-vert-about.html" >About</a></li>
   </ul>
 
   <div class="content">
-    <h1>Contacts</h1>
+    <h1>Costacts</h1>
 
   </div>
 

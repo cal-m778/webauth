@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Gradients</title>
+<style>
+.square {
+    height: 400px;
+    width: 400px;
+}
+#gradient1 {
+    background: linear-gradient(red, blue);
+}
+#gradient2 {
+    background: linear-gradient(to right, red, green, blue);
+}
+#gradient3 {
+    background: linear-gradient(45deg, red, green, blue, yellow);
+}
+#gradient4 {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1), rgba(0,255,0,1), rgba(0,255,0,0));
+}
+#gradient5 {
+    background: repeating-linear-gradient(to right, red, yellow 25%);
+}
+#gradient6 {
+    background: repeating-linear-gradient(to right, red, yellow, red 25%);
+}
+#gradient7 {
+    background: radial-gradient(red, yellow, green, blue);
+}
+</style>
+</head>
+<body>
+<div id="gradient1" class="square"></div>
+<div id="gradient2" class="square"></div>
+<div id="gradient3" class="square"></div>
+<div id="gradient4" class="square"></div>
+<div id="gradient5" class="square"></div>
+<div id="gradient6" class="square"></div>
+<div id="gradient7" class="square"></div>
+</body>
+</html>

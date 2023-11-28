@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Multiple Backgrounds</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background: url(Hero-Shot-Photography-0G9A1436-1024x683.jpg) no-repeat center center / 100% 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3em;
+        }
+        .background {
+            background: url(dd591xq-0121b7dd-baeb-4055-8e1e-1fc4a1895657.png);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .background:before {
+            content: "";
+            background:url(TennesseeOrange_720x_600daba9-8296-4c9d-8529-2ea54e539d07_400x.webp) no-repeat center -20% / 200px 150px, url(Jen_Hsun_Huang2-214x300.jpg) no-repeat center center;
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .background-shorthand {
+            background:url(TennesseeOrange_720x_600daba9-8296-4c9d-8529-2ea54e539d07_400x.webp) no-repeat center 35% / 200px 150px , url(Jen_Hsun_Huang2-214x300.jpg) no-repeat center center, url(dd591xq-0121b7dd-baeb-4055-8e1e-1fc4a1895657.png);
+            height: 100vh;
+        }
+        .fullsize-background {
+            background: url(3_Full-screen.jpg) no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">Cal Martin</div>
+    <div class="background"></div>
+    <div class="background-shorthand"></div>
+    <div class="fullsize-background"></div>
+</body>
+</html>
